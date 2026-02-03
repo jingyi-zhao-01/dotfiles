@@ -4,15 +4,17 @@
 POSH=agnoster
 
 # -----------------------------------------------------
-# oh-myzsh themes: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+# oh-my-zsh themes: https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
 # -----------------------------------------------------
 ZSH_THEME=robbyrussell
 
-
-# auto complete plugin installed via yay https://github.com/marlonrichert/zsh-autocomplete
-
-source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-
+# -----------------------------------------------------
+# zsh-autocomplete (installed via yay)
+# https://github.com/marlonrichert/zsh-autocomplete
+# -----------------------------------------------------
+if [ -f /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh ]; then
+  source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+fi
 
 # -----------------------------------------------------
 # oh-myzsh plugins
@@ -33,12 +35,14 @@ plugins=(
 )
 
 # Set-up oh-my-zsh
-source $ZSH/oh-my-zsh.sh
+source "$ZSH/oh-my-zsh.sh"
 
 # -----------------------------------------------------
 # Set-up FZF key bindings (CTRL R for fuzzy history finder)
 # -----------------------------------------------------
-source <(fzf --zsh)
+if command -v fzf >/dev/null; then
+  source <(fzf --zsh)
+fi
 
 # zsh history
 HISTFILE=~/.zsh_history

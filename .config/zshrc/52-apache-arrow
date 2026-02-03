@@ -1,6 +1,0 @@
-export ARROW_HOME="$CONDA_PREFIX"
-
-export ARROW_PROJECT="$HOME/PycharmProjects/arrow"
-export PARQUET_TEST_DATA="$ARROW_PROJECT/cpp/submodules/parquet-testing/data"
-export ARROW_TEST_DATA="$ARROW_PROJECT/testing/data"
-
