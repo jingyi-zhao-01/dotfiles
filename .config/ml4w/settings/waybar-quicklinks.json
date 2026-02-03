@@ -1,0 +1,76 @@
+/*
+Define your quick links for the statusbar here.
+YOu can use icons from here https://fontawesome.com/search?ic=free
+You can reload waybar with SUPER + SHIFT + B
+*/
+{
+    "custom/quicklink_browser": {
+        "format": "",
+        "on-click": "~/.config/ml4w/settings/browser.sh",
+        "tooltip-format": "Open Browser"
+    },
+    "custom/quicklink_filemanager": {
+        "format": "",
+        "on-click": "dolphin",
+        "tooltip-format": "Open Filemanager"
+    },
+    "custom/quicklink_email": {
+        "format": "",
+        "on-click": "~/.config/ml4w/settings/email.sh",
+        "tooltip-format": "Open Email Client"
+    },
+    "custom/quicklink_chromium": {
+        "format": "",
+        "on-click": "chromium",
+        "tooltip-format": "Open Chromium"
+    },
+    "custom/quicklink_edge": {
+        "format": "",
+        "on-click": "edge",
+        "tooltip-format": "Open Edge"
+    },
+    "custom/quicklink_firefox": {
+        "format": "",
+        "on-click": "firefox",
+        "tooltip-format": "Open Firefox"
+    },
+    "custom/quicklink_thunderbird": {
+        "format": "",
+        "on-click": "thunderbird",
+        "tooltip-format": "Open Thunderbird"
+    },
+    "custom/quicklink_calculator": {
+        "format": "",
+        "on-click": "~/.config/ml4w/settings/calculator.sh",
+        "tooltip-format": "Open calculator"
+    },
+
+    "custom/quicklink_obsidian": {
+        "format": "🔷",
+        "on-click": "obsidian",
+        "tooltip-format": "Open Obsidian"
+    },
+
+       
+
+
+/*
+Don't remove the quicklinkempty
+*/
+    "custom/quicklinkempty": {},
+/*
+Add your quicklinks in your desired order to the status bar
+*/
+    "group/quicklinks": {
+        "orientation": "horizontal",
+        "modules": [
+            "custom/quicklink_filemanager",
+            "custom/quicklink_obsidian",
+
+/*
+Don't remove the quicklinkempty
+*/
+            "custom/quicklinkempty"
+        ]
+    }
+}
