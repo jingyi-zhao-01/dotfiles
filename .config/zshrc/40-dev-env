@@ -2,6 +2,9 @@
 # DEV ENV
 # -----------------------------------------------------
 
+# Local user bin
+export PATH="$HOME/.local/bin:$PATH"
+
 # -----------------------------------------------------
 # Python
 # -----------------------------------------------------
@@ -48,6 +51,11 @@ fi
 # -----------------------------------------------------
 # Node
 # -----------------------------------------------------
+
+# Bun
+[ -s "$HOME/.bun/_bun" ] && source "$HOME/.bun/_bun"
+export BUN_INSTALL="$HOME/.bun"
+export PATH="$BUN_INSTALL/bin:$PATH"
 
 # PATH exports (additive)
 export PNPM_HOME="$HOME/.local/share/pnpm"
