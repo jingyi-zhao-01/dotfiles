@@ -33,9 +33,10 @@ Personal configuration files hyprland set up.
     └── zshrc
 ```
 
-## Hyprland setup
+## Hyprland
 
 This setup is based on ML4W. The main entry point is `~/.config/hypr/hyprland.conf`, which sources the modular config files under `~/.config/hypr/conf/`.
+See the detailed Hyprland README in [.config/hypr/README.md](.config/hypr/README.md).
 
 ### 1) Install required packages
 
