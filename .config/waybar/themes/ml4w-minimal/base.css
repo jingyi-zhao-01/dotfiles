@@ -31,10 +31,10 @@ window#waybar {
 #window {
     margin: 0px 15px 0px 0px;
     border-radius: 12px;
-    color:@textcolor;
+    color: @textcolor;
     font-size:14px;
     font-weight:normal;
-}
+}  
 
 window#waybar.empty #window {
     background-color:transparent;

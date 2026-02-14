@@ -9,7 +9,7 @@
     "include": [
         "~/.config/waybar/modules-quicklinks.jsonc",
         "~/.config/waybar/modules.json",
-        "~/.config/waybar/modules-toobars.jsonc"
+        "~/.config/waybar/modules-groups.jsonc"
     ],
 
     "custom/updates": {
@@ -46,6 +46,7 @@
         "hyprland/workspaces",
         "group/links",
         "group/quicklinks",
+        "mpris",
         "custom/empty"
     ],
 

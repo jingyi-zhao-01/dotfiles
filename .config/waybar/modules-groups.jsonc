@@ -21,8 +21,7 @@
       "custom/tools",
       "custom/cliphist",
       "custom/hypridle",
-      "custom/hyprshade",
-      "mpris"
+      "custom/hyprshade"
     ]
   }
 }
