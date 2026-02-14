@@ -279,7 +279,7 @@
 
   "mpris": {
     "player": "YoutubeMusic",
-    "format": "{title} - {artist}",
+    "format": "{player_icon} {dynamic}",
     "format-paused": " {title} - {artist}",
     "interval": 2
   },

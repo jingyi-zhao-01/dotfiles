@@ -52,8 +52,7 @@
 
     "modules-center": [
         "hyprland/window",
-        "custom/empty",
-        "mpris"
+        "custom/empty"
     ],
 
     "modules-right": [

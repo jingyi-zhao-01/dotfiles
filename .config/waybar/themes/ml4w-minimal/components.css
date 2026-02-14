@@ -232,11 +232,11 @@
 
 #tray > .needs-attention {
     -gtk-icon-effect: highlight;
-    background-color: #eb4d4b;
+    background-color: #db30d0;
 }
 
 
 /* safe styling (no animations) */
 #mpris {
-  color: #ffffff;
+  color: #c528c0;
 }
