@@ -7,8 +7,9 @@
     "spacing": 0,
 
     "include": [
-        "~/.config/ml4w/settings/waybar-quicklinks.json",
-        "~/.config/waybar/modules.json"
+        "~/.config/waybar/modules-quicklinks.jsonc",
+        "~/.config/waybar/modules.json",
+        "~/.config/waybar/modules-toobars.jsonc"
     ],
 
     "custom/updates": {
