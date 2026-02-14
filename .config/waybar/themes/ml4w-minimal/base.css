@@ -1,0 +1,41 @@
+/*
+ * Base / layout styles for ml4w-minimal
+ * (General, window, core layout rules)
+ */
+
+/* -----------------------------------------------------
+ * General
+ * ----------------------------------------------------- */
+* {
+    font-family: "Fira Sans semibold", FontAwesome, Roboto, Helvetica, Arial, sans-serif;
+    border: none;
+    border-radius: 0px;
+}
+
+window#waybar {
+    background-color: rgba(0,0,0,0.4);
+    border-bottom: 0px solid #ffffff;
+    /* color: #FFFFFF; */
+    transition-property: background-color;
+    transition-duration: .5s;
+}
+
+.modules-left {
+    padding-left: 10px;
+}
+
+/* -----------------------------------------------------
+ * Window
+ * ----------------------------------------------------- */
+
+#window {
+    margin: 0px 15px 0px 0px;
+    border-radius: 12px;
+    color:@textcolor;
+    font-size:14px;
+    font-weight:normal;
+}
+
+window#waybar.empty #window {
+    background-color:transparent;
+}
