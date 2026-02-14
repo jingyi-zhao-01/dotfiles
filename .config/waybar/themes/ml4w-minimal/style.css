@@ -168,7 +168,11 @@ window#waybar.empty #window {
 
 
 #tools {
-    background: rgba(69, 186, 216, 0.83);
+    margin-left: 2px;
+    margin-right: -6px;
+    padding-left: 6px;
+    padding-right: 2px;
+    background: rgba(69, 128, 216, 0.83);
     border-radius: 2px;
 }
 
