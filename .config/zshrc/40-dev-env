@@ -85,3 +85,8 @@ if [[ -o interactive ]]; then
   fi
   echo ">>> corepack: $(command -v corepack 2>/dev/null || echo not found)"
 fi
+
+
+
+# VSCODE
+[[ "$TERM_PROGRAM" == "vscode" ]] && . "$(code --locate-shell-integration-path zsh)"
