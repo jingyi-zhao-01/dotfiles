@@ -3,3 +3,5 @@
 
 /zshrc/91-secrets
 /.config/zshrc/91-secrets
+
+.config/hypr/monitors.conf
