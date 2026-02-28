@@ -12,9 +12,9 @@ ZSH_THEME=robbyrussell
 # zsh-autocomplete (installed via yay)
 # https://github.com/marlonrichert/zsh-autocomplete
 # -----------------------------------------------------
-if [ -f /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh ]; then
-  source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
-fi
+# if [ -f /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh ]; then
+#   source /usr/share/zsh/plugins/zsh-autocomplete/zsh-autocomplete.plugin.zsh
+# fi
 
 # -----------------------------------------------------
 # oh-myzsh plugins
